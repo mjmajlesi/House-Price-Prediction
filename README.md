@@ -44,7 +44,7 @@ The main goal is to build an accurate, reproducible regression model with proper
 
 ## 🏗️ Architecture & Data Flow
 
-```mermaid
+```
 flowchart LR
     A[🌐 Web Sources<br/>Zillow, Redfin, Realtor] -->|homeharvest| B[🕷️ Scraper<br/>src/scraper/]
     B --> C[(🗄️ SQLite DB<br/>data/database.sqlite)]
@@ -279,14 +279,5 @@ Copyright (c) 2026 Mohammad Javad Majlesi
 * [MLflow](https://mlflow.org/) — complete machine learning lifecycle platform.
 * [LightGBM](https://lightgbm.readthedocs.io/) — fast and accurate gradient boosting.
 * [scikit-learn](https://scikit-learn.org/) — core machine learning tooling.
-* The Python and Data Science community 🇮🇷
-
----
-
-<div align="center">
-
-**If you find this project useful, please consider giving it a ⭐ on GitHub!**
-
-Made with ❤️ and Python in Iran 🇮🇷
 
 </div>
